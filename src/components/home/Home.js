@@ -5,7 +5,7 @@ import './styles.css';
 
 const Home = () => {
     const topMessage = <p className='text'>Thought the Vykas DDR mechanic might be tough for the first couple tries so I made this to practice</p>;
-    const botMessage = <p className='text'>Press the start button to play.'H' will bring you back here.</p>
+    const botMessage = <p className='text'>Press the start button to play. 'H' will bring you back here.</p>
 
     let navigate = useNavigate();
 
